@@ -6,13 +6,13 @@
 #
 asgiref==3.7.2
     # via
-    #   -c requirements/requirements.txt
+    #   -c requirements.txt
     #   channels
     #   daphne
     #   django
 attrs==23.1.0
     # via
-    #   -c requirements/requirements.txt
+    #   -c requirements.txt
     #   automat
     #   service-identity
     #   twisted
@@ -21,29 +21,29 @@ autobahn==23.6.2
 automat==22.10.0
     # via twisted
 black==23.7.0
-    # via -r requirements/dev-requirements.in
+    # via -r dev-requirements.in
 build==0.10.0
     # via pip-tools
 cffi==1.15.1
     # via
-    #   -c requirements/requirements.txt
+    #   -c requirements.txt
     #   cryptography
 cfgv==3.4.0
     # via pre-commit
 channels[daphne]==4.0.0
     # via
-    #   -c requirements/requirements.txt
-    #   -r requirements/dev-requirements.in
+    #   -c requirements.txt
+    #   -r dev-requirements.in
 click==8.1.7
     # via
-    #   -c requirements/requirements.txt
+    #   -c requirements.txt
     #   black
     #   pip-tools
 constantly==15.1.0
     # via twisted
 cryptography==41.0.3
     # via
-    #   -c requirements/requirements.txt
+    #   -c requirements.txt
     #   autobahn
     #   pyopenssl
     #   service-identity
@@ -51,13 +51,13 @@ daphne==4.0.0
     # via channels
 distlib==0.3.7
     # via virtualenv
-django==4.2.6
+django==4.2.7
     # via
-    #   -c requirements/requirements.txt
+    #   -c requirements.txt
     #   channels
     #   django-debug-toolbar
 django-debug-toolbar==4.2.0
-    # via -r requirements/dev-requirements.in
+    # via -r dev-requirements.in
 filelock==3.12.3
     # via virtualenv
 hyperlink==21.0.0
@@ -68,13 +68,13 @@ identify==2.5.27
     # via pre-commit
 idna==3.4
     # via
-    #   -c requirements/requirements.txt
+    #   -c requirements.txt
     #   hyperlink
     #   twisted
 incremental==22.10.0
     # via twisted
 isort==5.12.0
-    # via -r requirements/dev-requirements.in
+    # via -r dev-requirements.in
 mypy-extensions==1.0.0
     # via black
 nodeenv==1.8.0
@@ -86,13 +86,13 @@ packaging==23.1
 pathspec==0.11.2
     # via black
 pip-tools==7.3.0
-    # via -r requirements/dev-requirements.in
+    # via -r dev-requirements.in
 platformdirs==3.10.0
     # via
     #   black
     #   virtualenv
 pre-commit==3.3.3
-    # via -r requirements/dev-requirements.in
+    # via -r dev-requirements.in
 pyasn1==0.5.0
     # via
     #   pyasn1-modules
@@ -101,7 +101,7 @@ pyasn1-modules==0.3.0
     # via service-identity
 pycparser==2.21
     # via
-    #   -c requirements/requirements.txt
+    #   -c requirements.txt
     #   cffi
 pyopenssl==23.2.0
     # via twisted
@@ -109,26 +109,28 @@ pyproject-hooks==1.0.0
     # via build
 pyyaml==6.0.1
     # via
-    #   -c requirements/requirements.txt
+    #   -c requirements.txt
     #   pre-commit
 service-identity==23.1.0
     # via twisted
 six==1.16.0
     # via
-    #   -c requirements/requirements.txt
+    #   -c requirements.txt
     #   automat
 sqlparse==0.4.4
     # via
-    #   -c requirements/requirements.txt
+    #   -c requirements.txt
     #   django
     #   django-debug-toolbar
 twisted[tls]==23.8.0
-    # via daphne
+    # via
+    #   daphne
+    #   twisted
 txaio==23.1.1
     # via autobahn
 typing-extensions==4.7.1
     # via
-    #   -c requirements/requirements.txt
+    #   -c requirements.txt
     #   twisted
 virtualenv==20.24.4
     # via pre-commit
