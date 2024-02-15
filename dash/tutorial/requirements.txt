@@ -28,7 +28,7 @@ QtPy==2.3.1
 SQLAlchemy==1.4.49
 SQLAlchemy-JSONField==1.0.1.post0
 SQLAlchemy-Utils==0.41.1
-Scrapy==2.9.0
+Scrapy==2.11.1
 Send2Trash==1.8.2
 Twisted==22.10.0
 WTForms==3.0.1
