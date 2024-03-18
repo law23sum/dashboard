@@ -2,7 +2,7 @@ Automat==22.10.0
 Babel==2.12.1
 ConfigUpdater==3.1.1
 Deprecated==1.2.14
-Django==4.2.3
+Django==4.2.11
 Flask==2.2.5
 Flask-AppBuilder==4.3.1
 Flask-Babel==2.0.0
