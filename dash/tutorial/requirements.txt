@@ -60,7 +60,7 @@ attrs==23.1.0
 backcall==0.2.0
 beautifulsoup4==4.12.2
 billiard==4.1.0
-black==23.7.0
+black==24.3.0
 bleach==6.0.0
 blinker==1.6.2
 boto3==1.28.9
